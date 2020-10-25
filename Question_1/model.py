@@ -81,7 +81,7 @@ def predict_test_data(k) :
 
 def main() :
     k = find_best_k()
-    print("The value of 'k' for optimum accuracy was found to be", k)
+    print("The value of 'k' for optimum accuracy was found to be", k, '\n')
 
     predict_test_data(k)
 
